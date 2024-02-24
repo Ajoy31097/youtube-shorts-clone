@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(40, 39, 39);
+  display: grid;
+  place-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.video-player {
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  max-width: 450px;
+}
