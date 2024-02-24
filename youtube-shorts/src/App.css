@@ -8,6 +8,10 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.video-player::-webkit-scrollbar {
+  display: none;
+}
+
 .video-player {
   position: relative;
   height: 90vh;
