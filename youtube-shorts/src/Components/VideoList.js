@@ -8,36 +8,36 @@ const VideoList = [
         id: 1,
         url: video1,
         channel: "Nature 2.0",
-        description: "Shimmering ocean caresses the shore.",
-        likes: "523",
-        dislikes: "78",
-        comments: "124"
+        description: "Shimmering ocean caresses the shore",
+        likes: 523,
+        dislikes: 78,
+        comments: 124
     },
     {
         id: 2,
         url: video2,
         channel: "Castle of Sands",
-        description: "Artist crafts sand castles against waves.",
-        likes: "1259",
-        dislikes: "373",
+        description: "Artist crafts sand castles against waves",
+        likes: 1259,
+        dislikes: 373,
         comments: "1K"
     },
     {
         id: 3,
         url: video3,
         channel: "SpiritualMinds",
-        description: "Journey as mindfulness and inner reflection.",
-        likes: "578",
-        dislikes: "258",
-        comments: "198"
+        description: "Journey as mindfulness and inner reflection",
+        likes: 578,
+        dislikes: 258,
+        comments: 198
     },
     {
         id: 4,
         url: video4,
         channel: "Drifters",
-        description: "Monster truck conquers rugged terrain.",
-        likes: "3324",
-        dislikes: "542",
+        description: "Monster truck conquers rugged terrain",
+        likes: 3324,
+        dislikes: 542,
         comments: "1.8K"
     }
 ];
