@@ -80,48 +80,48 @@ const Video = ({ videos }) => {
   
   return (
     <div className='video' tabIndex={0}>
-      <video className="video-player" src={url} autoPlay muted onClick={() => setPlaying(!playing)} ref={videoRef} />
+      <video className="video-container" src={url} autoPlay muted onClick={() => setPlaying(!playing)} ref={videoRef} />
 
       <div className='container'>
         <div className='header'>
           <div>
-            <button className='button'><IoArrowBack style={{ color: "white", fontSize: "32px", padding: "10px" }} /></button>
+            <button className='button' style={{marginLeft: "1vw"}}><IoArrowBack style={{ color: "white", fontSize: "2em", padding: "3%" }} /></button>
           </div>
           <div>
-            <button className='button'><BsThreeDotsVertical style={{ color: "white", fontSize: "32px", padding: "10px" }} /></button>
+            <button className='button' style={{marginRight: "1vw"}}><BsThreeDotsVertical style={{ color: "white", fontSize: "2em", padding: "3%" }} /></button>
           </div>
         </div>
 
         <div className='sidePanel'>
           <div>
           <button className='button' onClick={handleLikes}>
-              {liked ? <AiFillLike style={{ color: "white", fontSize: "32px" }} /> : <AiOutlineLike style={{ color: "white", fontSize: "32px" }} />}
+              {liked ? <AiFillLike style={{ color: "white", fontSize: "2em" }} /> : <AiOutlineLike style={{ color: "white", fontSize: "2em" }} />}
             </button>
             <p style={{ color: "white" }}>{likeCount}</p>
           </div>
           <div>
           <button className='button' onClick={handleDislikes}>
-              {disliked ? <AiFillDislike style={{ color: "white", fontSize: "32px" }} /> : <AiOutlineDislike style={{ color: "white", fontSize: "32px" }} />}
+              {disliked ? <AiFillDislike style={{ color: "white", fontSize: "2em" }} /> : <AiOutlineDislike style={{ color: "white", fontSize: "2em" }} />}
             </button>
             <p style={{ color: "white" }}>{dislikeCount}</p>
           </div>
           <div>
-            <button className='button'><CgComment style={{ color: "white", fontSize: "32px" }} /></button>
+            <button className='button'><CgComment style={{ color: "white", fontSize: "2em" }} /></button>
             <p style={{ color: "white" }}>{comments}</p>
           </div>
           <div>
-            <button className='button'><PiShareFat style={{ color: "white", fontSize: "32px" }} /></button>
+            <button className='button'><PiShareFat style={{ color: "white", fontSize: "2em" }} /></button>
             <p style={{ color: "white" }}>Share</p>
           </div>
           <div>
-            <button className='button'><IoMdSync style={{ color: "white", fontSize: "32px" }} /></button>
+            <button className='button'><IoMdSync style={{ color: "white", fontSize: "2em" }} /></button>
             <p style={{ color: "white" }}>Remix</p>
           </div>
         </div>
 
         <div className='footer' >
           <div className='vidDetails'>
-            <CgProfile style={{fontSize: "30px"}}/>
+            <CgProfile style={{fontSize: "2em"}}/>
             <p>{channel}</p>
             <button className={subscribe ? 'subscribed' : 'subscribe'} onClick={handleSubscribe}>
               {subscribe ? "Subscribed" : "Subscribe"}

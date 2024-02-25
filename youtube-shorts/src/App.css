@@ -14,7 +14,7 @@
 
 .video-player {
   position: relative;
-  height: 90vh;
+  height: 100%;
   width: 100%;
-  max-width: 450px;
+  max-width: 400px;
 }
