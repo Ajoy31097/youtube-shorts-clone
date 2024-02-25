@@ -12,7 +12,7 @@ const IconPopup = ({ icon, color }) => {
   }, []);
 
   return (
-    <div id="icon-popup" style={{ position: 'fixed', top: '50%', left: '49%', transform: 'translate(-50%, -50%)', zIndex: 9999 }}>
+    <div id="icon-popup" style={{ position: 'fixed', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', zIndex: 9999 }}>
       {React.createElement(icon, { style: { color, fontSize: '100px' } })}
     </div>
   );
